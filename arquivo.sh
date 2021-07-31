@@ -43,8 +43,4 @@ scp root@$i:$dir/$arquivo $cop/$i
 cp -iprv $cop/$i /home/log
 done
 
-sleep 2
-
-cp -iprv $dir/$arquivo $cop/RVMTPR1006
-
 exit 0
